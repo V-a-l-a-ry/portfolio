@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Landing page</title>
+</head>
+<body>
+   <!--h1 class="text-3xl">Hello Valary</h1-->
+   <!--navbar-->
+   <nav class="relative container mx-auto  p-6">
+   <div class="flex items-center justify-between">
+    <div class="pt-2">
+    <img src="image/move1.png" alt=""/>
+    </div>
+    <!--menu-->
+    <div class="hidden md:flex space-x-6">
+    <a href="#"class="hover:text-darkGrayishBlue">Projects</a>
+    <a href="#"class="hover:text-darkGrayishBlue">Skills</a>
+    <a href="#"class="hover:text-darkGrayishBlue">Education</a>
+   </div>
+   <!--button-->
+   <a href="#" 
+   class=" hidden md:block p-3 px-6 pt-2 text-white bg-darkBlue rounded-full
+    baseline hover:bg-darkGrayishBlue">Contact Info</a>
+     <!--Hamburger menu-->
+     <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+     <span class="hamburger-top"></span>
+     <span class="hamburger-middle"></span>
+     <span class="hamburger-bottom"></span>
+     </button>
+    </div>
+   <!--mobile menu-->
+   <div class="md:hidden">
+    <div id="menu" 
+    class="absolute  flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:self-center left-6 right-6 drop-shadow-md">
+        <a href="#">Projects</a>
+        <a href="#">Skills</a>
+        <a href="#">Education</a>
+    </div>
+   </div>
+
+</nav>
+<!--hero-->
+<section id="hero">
+    <!--flex-->
+    <div class="container flex flex-col-reverse md:flex-row items-center px-6
+    mx-auto mt-10 space-y-0 md:space-y-0">
+    <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+      <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl
+     md:text-left ">
+     Bringing ideas to life through code and dynamic design.  
+    </h1>
+<p class="max-w-sm text-center text-veryDarkBlue md:text-left">
+    I’m a developer with a passion for crafting innovative solutions that not only solve problems but inspire.
+    I build with a focus on performance, simplicity, and seamless user experiences.
+Let's turn your vision into reality!"</p>
+
+    </div>
+    <!--image-->
+    <div class="md:w-3/4 w-full ml-auto -mt-50">
+        <img src="image/quet8.jpg" alt="">
+    </div>
+</div>
+</section>
+<!--features-->
+<section id="features">
+    <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+        <div class="flex flex-col space-y-12 md:w-1/2">
+            <h2 class="max-w-md text-4xl font bold text-center md:text-left">
+              Motivations  
+            </h2>
+            <p class="max-w-sm text-center text-veryDarkBlue md:text-left">
+                Every obstacle I face motivates me to develop and invent. 
+                My daily inspiration comes from the excitement of solving difficult issues with ease. <br>
+                I enjoy writing code and designing interfaces that improve user experiences while also working effectively. 
+                The ever changing landscape of technology fuels my curiosity and encourages me to never stop learning.<br> 
+                Knowing that my work can make a difference, no matter how tiny, inspires me to keep aiming for perfection.
+            </p>
+        </div>
+        <div class="flex flex-col space-y-8 md:w-1/2">
+            <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                <!--heading-->
+                <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                    <div class="flex items-center space-x-2">
+                       <div class="px-4 py-2 text-white rounded-full md:py-1 bg-darkBlue">
+                       Skills Overview
+                       </div>
+                    </div>
+                    <p class=" text-veryDarkBlue">
+                        Programming languages: python(intermediate), java (intermediate), C++(advanced), C# (Basic), C(advanced), javascript( intermediate),php(intermediate)<br>
+                        Operating systems: Windows, Linux(ubuntu)<br>
+                        Technologies and frameworks: Firebase, MySql server, Django,Laravel <br>
+                        Software: Git version control system, microsoft office suite.
+                         
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!--projects-->
+<section id="Projects">
+    <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <!--heading-->
+        <h2 class="text-4xl font-bold text-center">
+            MY PROJECTS.
+        </h2>
+        <!--the projects container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+<!--project 1-->
+<div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/2">
+    <img src="image/av11.jpg" class="w-16 -mt-14" alt=""/>
+    <h5 class="text-lg font-bold">Intern Management System</h5>
+    <p class="text-sm  text-veryDarkBlue">
+        Built with PHP (Laravel) and Tailwind CSS - Team Project<br>
+
+This project was developed to streamline the process of managing interns within an organization.
+ The system allows administrators to track intern progress, provide individual and group feedback, and manage intern profiles and tasks.<br> 
+ As part of a collaborative team, <br>I focused on both front-end styling and back-end logic, ensuring the system was scalable and user-friendly for both interns and administrators.
+    </p>
+</div>
+<!--project2-->
+<div class=" hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex  md:w-1/2">
+    <img src="image/proj2.jpeg" class="w-16 -mt-14" alt=""/>
+    <h5 class="text-lg font-bold">E-commerce Website for Solar products</h5>
+    <p class="text-sm  text-veryDarkBlue">
+        Built with Django - Final Year Project<br>
+
+        This project was designed to provide an efficient platform for purchasing solar products,<br>
+         tailored to customer needs. The system offers a seamless user experience, allowing customers to browse solar panels, batteries, and accessories, with an integrated payment gateway for secure transactions.<br>
+          Built with Django, the project ensures robust back-end functionality, while providing a dynamic, user-friendly front-end for customers to easily navigate and purchase products.<br>
+           As my final year project, I focused on building a scalable and secure solution that simplifies the process of buying solar energy products online.
+    </p>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+<footer class="bg-white">
+    <!--flex container-->
+    <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+        <!--logo and socials-->
+       <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0  md:items-start">
+        <!--socials-->
+        <div class="flex justify-center space-x-4">
+            <!--insta-->
+            <a href="#">
+               <img src="image/instagram.png" alt="" class="h-8"/> 
+            
+            </a>
+             <!--linkedin-->
+             <a href="#">
+                <img src="image/linkedin-logo.png" alt="" class="h-8"/> 
+             
+             </a>
+              <!--github-->
+            <a href="#">
+                <img src="image/github-sign.png" alt="" class="h-8"/> 
+             
+             </a>
+
+        </div>
+       </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
